@@ -31,7 +31,8 @@ make
 cd ..
 
 # store generated data into sqlite3 db
-sqlite3 tpch.db < ./upstream_db/tpch_DDL_DML.sql > /dev/null 2>&1 #load the generated data into a tpch sqlite3 db
+sqlite3 tpch.db < ./upstream_db/tpch_ddl.sql # create tpch db and tables in it
+sqlite3 tpch.db < ./upstream_db/insert_data #load the generated data into a tpch sqlite3 db
 
 ```
 4. write pipeline scripts for the transfer of data to duckdb
