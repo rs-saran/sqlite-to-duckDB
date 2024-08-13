@@ -1,0 +1,11 @@
+.silent on
+.mode csv
+.separator |
+.import ./tpch-dbgen/nation.tbl nation
+.import ./tpch-dbgen/region.tbl region
+.import ./tpch-dbgen/part.tbl part
+.import ./tpch-dbgen/supplier.tbl supplier
+.import ./tpch-dbgen/partsupp.tbl partsupp
+.import ./tpch-dbgen/customer.tbl customer
+.import ./tpch-dbgen/orders.tbl orders
+.import ./tpch-dbgen/lineitem.tbl lineitem
