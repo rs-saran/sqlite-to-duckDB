@@ -8,10 +8,7 @@ This project provides a set of data pipelines designed to transfer data from an 
 SQLite is used here as the source database where operational data is stored, while DuckDB serves as the destination for data warehousing and analytical processing. This setup enables efficient querying and analysis on large datasets that were originally structured for transaction processing.
 
 
-
-## Components
-
-| **Component**        | **Details**                                  |
+| **Attribute**        | **Details**                                  |
 |----------------------|----------------------------------------------|
 | **Source**           | SQLite3 (OLTP database with TPC-H data)      |
 | **Destination**      | DuckDB warehouse                             |
@@ -19,7 +16,7 @@ SQLite is used here as the source database where operational data is stored, whi
 | **Orchestrator**     | Python native                                |
 | **Data Processor**   | DuckDB in Python                             |
 | **Data Quality**     | -                                            |
-| **Storage**          | File system & DuckDB                                 |
+| **Storage**          | File system & DuckDB                         |
 | **Visualization**    | -                                            |
 | **Monitoring & Alerting** | -                                       |
 | **CI/CD**            | -                                            |
