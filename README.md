@@ -35,5 +35,12 @@ sqlite3 tpch.db < ./upstream_db/tpch_ddl.sql # create tpch db and tables in it
 sqlite3 tpch.db < ./upstream_db/insert_data #load the generated data into a tpch sqlite3 db
 
 ```
-4. write pipeline scripts for the transfer of data to duckdb
+
+4. Setup duckdb warehouse 
+```bash
+# setup duckdbwarehouse
+python3 downstream_db/downstream_db_setup.py
+```
+
+4. write pipeline scripts for the transfer of data to duckdb and run them eg: wide_table_pipeline/
 
