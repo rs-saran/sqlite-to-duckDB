@@ -9,6 +9,24 @@ SQLite is used here as the source database where operational data is stored, whi
 
 
 
+## Components
+
+| **Component**        | **Details**                                  |
+|----------------------|----------------------------------------------|
+| **Source**           | SQLite3 (OLTP database with TPC-H data)      |
+| **Destination**      | DuckDB warehouse                             |
+| **Scheduler**        | -                                            |
+| **Orchestrator**     | Python native                                |
+| **Data Processor**   | DuckDB in Python                             |
+| **Data Quality**     | -                                            |
+| **Storage**          | File system & DuckDB                                 |
+| **Visualization**    | -                                            |
+| **Monitoring & Alerting** | -                                       |
+| **CI/CD**            | -                                            |
+| **IAC**              | -                                            |
+| **Code Testing**     | -                                            |
+| **Linting & Formatting** | -                                        |
+
 
 ## Steps to Set Up and Run the Project
 
@@ -116,4 +134,12 @@ SQLite is used here as the source database where operational data is stored, whi
    ```
 
    This command runs the pipeline script, transferring data from SQLite to DuckDB.
+
+
+
+
+   ---
+
+   Certainly! Based on your provided details, I'll craft a README file with a fitting name for your project. I'll name it **"OLTP-to-DuckDB ETL Pipeline"**. Here's the README:
+
 
