@@ -1,6 +1,4 @@
-# Simle Data Pipelines: 
-
-## SQLite to DuckDB
+# SQLite to DuckDB:
 
 ### Overview
 This project provides a set of data pipelines designed to transfer data from an SQLite database (OLTP) to a DuckDB database (OLAP). The aim is to facilitate the migration and transformation of transactional data into an analytical format for advanced querying and analysis.
